@@ -95,7 +95,7 @@ main{
 /* main part-pillar */
 
 .main-pillar{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .pillar{
     display: flex;
@@ -123,14 +123,13 @@ main{
 /* main part-vision */
 
 .main-vision{
-    border-top:  20px;
+    margin-top: 100px;
 }
 .vision{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1100px;
-    
 }
 .vision-title{
     color: rgb(14, 14, 14);
@@ -226,14 +225,16 @@ main{
     letter-spacing: 0%;
     text-align: left;
 }
+/* main part-yunus */
 .yunus{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    padding: 35px;
+    padding: 10px;
     background: rgb(245, 245, 245);
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .yunus-content{
     color: rgba(14, 14, 14, 0.8);
@@ -252,4 +253,83 @@ main{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+/* main part-table */
+.table-title{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.btn-4{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 5px 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 1117px;
+    height: auto;
+}
+td{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+/* main part-satelite */
+.recent-news{
+    margin-top: 100px;
+}
+.satelite-shared{
+    border-radius: 24px;
+    background: rgb(245, 245, 245);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.satelite-img{
+    border-radius: 24px;
+
+}
+.btn-5{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-content{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.satelite-2{
+    flex-direction: row-reverse;
 }
