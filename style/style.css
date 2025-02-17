@@ -401,6 +401,7 @@ ul{
     background: #C6E4D6;
     padding: 50px;
     border-radius: 24px;
+    margin-bottom: 70px;
 }
 
 .input-email{
@@ -418,5 +419,5 @@ ul{
     margin-left: -20px;
     width: 150px;
     border: none;
-    
+    color: white;
 }
