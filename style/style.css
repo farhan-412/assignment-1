@@ -261,6 +261,8 @@ main{
     background: rgb(198, 228, 214);
     display: flex;
     justify-content: space-between;
+    width: 1111px;
+    
    
 }
 .btn-4{
@@ -279,7 +281,7 @@ main{
 }
 table{
     border-collapse: collapse;
-    width: 1117px;
+    width: 1111px;
     height: auto;
 }
 td{
@@ -291,6 +293,7 @@ td{
 /* main part-satelite */
 .recent-news{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .satelite-shared{
     border-radius: 24px;
@@ -332,4 +335,62 @@ td{
 }
 .satelite-2{
     flex-direction: row-reverse;
+}
+/* main part-donate */
+.direction{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-6{    
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(245, 245, 245);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 20px;
+    text-align: center;
+}
+.effect{
+    background: #C6E4D6;
+}
+.amount{
+    box-sizing: border-box;
+    border-bottom-left-radius: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(245, 245, 245);
+    width: 1000px;
+    padding: 10px 20px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn-7{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 35px;
+    margin-left: 500px;
+    margin-bottom: 100px;
 }
