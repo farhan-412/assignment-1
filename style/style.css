@@ -419,5 +419,9 @@ ul{
     margin-left: -20px;
     width: 150px;
     border: none;
-    color: white;
+    color:white;
+    
+}
+.shadow:hover{
+    background-color: rgb(162, 96, 96);
 }
